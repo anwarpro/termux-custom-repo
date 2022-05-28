@@ -240,7 +240,7 @@ SHA512: 1d857b51289f6deb81a99fa34d96d5f19ac68781b2ad1c8037110f0967eb95e52d6bd946
 
 Package: dpkg
 Architecture: aarch64
-Installed-Size: 1276
+Installed-Size: 1280
 Maintainer: @termux
 Version: 1.21.7
 Homepage: https://packages.debian.org/dpkg
@@ -250,11 +250,11 @@ Essential: yes
 Replaces: dpkg-dev
 Description: Debian package management system
 Filename: dists/stable/main/binary-aarch64/dpkg_1.21.7_aarch64.deb
-Size: 291524
-MD5Sum: 77e19d94c4dc79bb2e0c57780f3c7a5b
-SHA1: 9d5fdbea174fdb0a1c846aa0ef5d4ec0d66925e7
-SHA256: 3860edffd161bf299167d6ae9a56052d81273ed718c21e6aeea4b66c45e90816
-SHA512: 304973805c79eb102c61118f0bbfb235cbe0215635a1bead5a687dc8f315dbc9b8d0a0a8f1aa0393aaf21a17be27b9501a22d1006d38e9d59eb66ccd3a302e6a
+Size: 292096
+MD5Sum: d481300cd291fb0b5c6a9982264698c6
+SHA1: bbc8c6afc95014b95d9cebb6589223e333bea81f
+SHA256: 2ec7aefd588d0a6b8ec156318d6e7a847108ff68c1c1218bc52066914123ad62
+SHA512: 4c00c34e85fdf60d19f86e637875177bfe9efc042cd36bacf7ae61bfb8c2f0e6c4612847674ce8a301c2935c7581785d6f77cd465b7349deed6b4ed64f7a8270
 
 Package: ed
 Architecture: aarch64
