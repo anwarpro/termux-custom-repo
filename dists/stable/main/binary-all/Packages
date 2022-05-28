@@ -126,11 +126,11 @@ Homepage: https://github.com/termux
 Essential: yes
 Description: GPG public keys for the official Termux repositories
 Filename: dists/stable/main/binary-all/termux-keyring_3.4_all.deb
-Size: 1036
-MD5Sum: 33174b4c01216272777728b274e6e012
-SHA1: 69c32d05a4175f46ebcfb1e717ab4dfe8f85d07f
-SHA256: 1cdf6e978464537c961373b8b3de597dcf3ba57ece3794d0d9f9d69ee76b012e
-SHA512: 83a0e9ba199b45890b1c5c162bdc06dca7a40a012dd01c7e83348be72ea2afc68443822c05b959549f45280d416809fe2fe14a3e7f7a7ffb47ef749e28d9c297
+Size: 2676
+MD5Sum: 9f4d8ac3fbcfba25671ecaf0ff6a5503
+SHA1: 6049be7112597c724705a036768e618b2dd31615
+SHA256: 820c2ad5858d8a6bd4ef99911fd0af63b74b89cf815e2d32c2c43e46ac0f26d0
+SHA512: 79073c18568fca78fa8222a29dab86e544313a5edabca8d8d358ae72423d173887e84d9bd3b3d5c9dea19ac0d756c34b00420d10347ea6ffc5422791046230b5
 
 Package: termux-licenses
 Architecture: all

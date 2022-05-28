@@ -2708,7 +2708,7 @@ data/data/com.learnprogramming.codecamp/files/usr/share/man/man1/dpkg-scanpackag
 data/data/com.learnprogramming.codecamp/files/usr/bin/am                         termux-am
 data/data/com.learnprogramming.codecamp/files/usr/libexec/termux-am/am.apk       termux-am
 data/data/com.learnprogramming.codecamp/files/usr/share/doc/termux-am/LICENSE    termux-am
-data/data/com.learnprogramming.codecamp/files/usr/etc/apt/trusted.gpg.d/phero.gpg termux-keyring
+data/data/com.learnprogramming.codecamp/files/usr/etc/apt/trusted.gpg.d/anwar.gpg termux-keyring
 data/data/com.learnprogramming.codecamp/files/usr/share/doc/termux-keyring/LICENSE termux-keyring
 data/data/com.learnprogramming.codecamp/files/usr/share/doc/termux-licenses/LICENSE termux-licenses
 data/data/com.learnprogramming.codecamp/files/usr/share/LICENSES/LGPL-3.0.txt    termux-licenses
