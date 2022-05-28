@@ -81,11 +81,11 @@ Homepage: https://packages.debian.org/dpkg
 Depends: perl, clang, make, dpkg (= 1.21.7)
 Description: Perl modules for dpkg
 Filename: dists/stable/main/binary-all/dpkg-perl_1.21.7_all.deb
-Size: 116596
-MD5Sum: 713fd9dfe3178a3ad1c0f8616ad619b3
-SHA1: cd03920e03afb10f96e1795033e2a79b9b5ea7fc
-SHA256: 93657934056ac5b5bdbf8bab1dcfbda30c254ae0048ee6a9c5ebc0d9ed4958d4
-SHA512: c509bc73a36587346ba59138ba33ccbfa62263fcec09fc8458561b59a31cd2fd3202ee1c4c6232994d19caa8aef6821467369853fcf2b5dbe9480be2f5670ec3
+Size: 116584
+MD5Sum: c15ce47c1beecea082b1d6c1956ad476
+SHA1: 949a46b89b9d78e0b0a72ca421a665f1134a2a92
+SHA256: 12b350c6622e2323b495f51ba0ec4dfa6de112d268d53495aa7d2e3d35c1f652
+SHA512: 7a8a90c2a99fc65e2416e63b083956af7d826cab620911bcbcb01fa71890e4508387a02728e829646a23f4de55f58a9eb5953e45fe3e8576d02a72e0e0dcb24f
 
 Package: dpkg-scanpackages
 Architecture: all
@@ -97,10 +97,10 @@ Depends: dpkg-perl, dpkg (= 1.21.7)
 Description: Creates Packages index files
 Filename: dists/stable/main/binary-all/dpkg-scanpackages_1.21.7_all.deb
 Size: 6916
-MD5Sum: 10d0a41135975899d723062a6ab74cf5
-SHA1: 78a1e21323f70296b995f056d08ed47ca6ba6d32
-SHA256: 25e79ccdb740482e82d3ac35b1cff319ecbfefb9d6778717436c40a5a71ad7e5
-SHA512: 01786cf73470134d28a83d41ea896b03abcd0d7cbc7566e12e215d2ede2b5fa7ff8415b5983e539bf1f7484081fb67ea3593e7666cd36c0f4731965de57236d5
+MD5Sum: 6fed12127eec4fe8c4ccabb3b12b7bfc
+SHA1: 35ef62870ccba141f01225a5b6c41e42df4d9ac4
+SHA256: ff52298eba4a13a69a428ed0556e5a12d104331b222675946da0a89d8841bd2e
+SHA512: f8cd7e5b842c0b5e7de5fba75bdfad42551fec64bb763cdfb1b540d2ebce0700155b9b1ded5aeb166b163457b5419e3ed99ee1ceccaff14d6a1cd2bd506d0303
 
 Package: termux-am
 Architecture: all
