@@ -250,11 +250,11 @@ Essential: yes
 Replaces: dpkg-dev
 Description: Debian package management system
 Filename: dists/stable/main/binary-aarch64/dpkg_1.21.7_aarch64.deb
-Size: 292180
-MD5Sum: 9eb42474cd1cafb4e8f92eb0ffe8187f
-SHA1: 280d5eec61a9ad47d2f201ed5f0c047c4b2a2050
-SHA256: 6a374692b360f6675db8b4bd6403a1ca8d7b6c99734359e1029b4db1d366f19c
-SHA512: d36a9d68a36caf0415ab5b62c730e9b46480358f24bb4b0875d12687f6617f3b0a860fb1528dc8178586520435c7e6087878f56f73a19cd0dc77b602c999f467
+Size: 292412
+MD5Sum: 5645dafc3ba6d5909eeda27b56e01bd2
+SHA1: 7d52153e5a281a117027b453b65f455fc603da15
+SHA256: b0c3ef99cedb1bccabcd14ad5ade65116f3184eee2fee4445b43e7ad796dfe5d
+SHA512: 4e66a507ea277fe319e9f7e0f6cc1afb053c5f15280ce377ba76f5904eb22b2a3df492cf76a35f84f45b8a7c49d410c1e1f8e826acefa9d3b0c067d593774f4e
 
 Package: ed
 Architecture: aarch64
