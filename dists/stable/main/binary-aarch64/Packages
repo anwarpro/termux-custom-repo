@@ -2317,6 +2317,26 @@ SHA1: 745e5133520776c43e05ad756afe28df50bb2a3a
 SHA256: 42b559c14d5ac8284728c0e41ab93b9081a987ae7c19bfd15416ab6ef4b29ebf
 SHA512: 1e56e8c7b500212d782c9241fe16227c12c66b4adeed73c3c1b2afbe546f78f677aca43289cbfb760c92dfd55528c1b778981f8f729ef707afd7cf3acca134a7
 
+Package: nodejs-lts
+Architecture: aarch64
+Installed-Size: 54928
+Maintainer: Yaksh Bariya <yakshbari4@gmail.com>
+Version: 16.15.0
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl-1.1, c-ares, libicu, zlib
+Conflicts: nodejs, nodejs-current
+Replaces: nodejs-current, nodejs-dev
+Provides: nodejs
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: dists/stable/main/binary-aarch64/nodejs-lts_16.15.0_aarch64.deb
+Size: 9711944
+MD5Sum: 8d04d920e96947dac63652fd42202cc3
+SHA1: 6deddd854795bfa5859a188a92aa9ac1f8e014e2
+SHA256: a358c752155e3264e2000546f6876889e799d0f6ec62d69e528d4e95b00e33b1
+SHA512: f78e81e76477958b7a03dbe37aba1e7d5b5df93c45c729ad489aa2dfe9a28725a80d2ea8d860572e855e8afab085236b93f8a8eb8ac01b04078c5787e64ebadf
+
 Package: nodejs
 Architecture: aarch64
 Installed-Size: 56744
@@ -2335,6 +2355,39 @@ MD5Sum: 5813ea3d2a01f625a20b5f1ac86e7868
 SHA1: eca40f7e35e61b8c96686b0b20a92c4bfc765675
 SHA256: 2b2f49445fb7cf641ecc21993796c4ad2e5cf2cf9909aa01a47e6ee31357f37e
 SHA512: 66131a5562017c1164e1681ae55242e5797111a9510e7a97c8bc3c003873469fe1598d688064cb57cf8e6d4fd57624a290cfd07c591863deabca3da2406dbb4c
+
+Package: openssl-1.1-static
+Architecture: aarch64
+Installed-Size: 5540
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Depends: openssl-1.1 (= 1.1.1o)
+Description: Static libraries for openssl-1.1
+Filename: dists/stable/main/binary-aarch64/openssl-1.1-static_1.1.1o_aarch64.deb
+Size: 1194740
+MD5Sum: bd6fad81ec5500cbba438f2c980d3372
+SHA1: 9eab2435b0e9ed7ab5bb8e7b22818e80629e5f86
+SHA256: 683c42d1e341613bca9ffc2d162d6681790a2c9549ef8931a737f1340151f2ff
+SHA512: f7622e0e239a5f20f5b0edc097dbc92283fd4318663adb106d9819e0e58aeaa943f7a8f2d7703832d8db19166936775671ce3d9745e4700289bebfc3c8046172
+
+Package: openssl-1.1
+Architecture: aarch64
+Installed-Size: 4448
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Breaks: openssl (<< 1.1.1m)
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Replaces: openssl (<< 1.1.1m)
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Filename: dists/stable/main/binary-aarch64/openssl-1.1_1.1.1o_aarch64.deb
+Size: 1189020
+MD5Sum: 848bdaf45faf1ef580e4a66984453ae5
+SHA1: da604014d95f248cd7e0c582d2b618bac68022aa
+SHA256: 9887550aa6b91ceaa77ca8ec614b098b5f36d17442d412352764f3e5cd9e5882
+SHA512: 3252a78bb3559ca77ef3b8db56480da4f0eb56c07e489f7e90fb8f5cf4009528ca74d16a832dee1344246a244e98b0b19ea66944c385ba091885eb532fc135f5
 
 Package: openssl-static
 Architecture: aarch64
@@ -2365,6 +2418,21 @@ MD5Sum: 19bfa0e0a7d337ebaebd2fe75a18d3ce
 SHA1: 6d08396e37566c8206b53a8a6a9bd526fa2c6f4f
 SHA256: 0f53a9e288a795811c903c34d5fc06681975ad7854ead7c1786de5b16ce642a5
 SHA512: 2370009326a1ce37a36cd8efc0689d62a369cdb90a17b1292a64e49fd04f92be646fffb45b0fae0312beb1acdcd9e0d31ba8725f8de236b91c28da8b8c3d903f
+
+Package: openssl1.1-tool
+Architecture: aarch64
+Installed-Size: 644
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Depends: openssl-1.1 (= 1.1.1o)
+Description: The openssl command line cryptographic tool
+Filename: dists/stable/main/binary-aarch64/openssl1.1-tool_1.1.1o_aarch64.deb
+Size: 192228
+MD5Sum: 63c253d91b53bbe36ce6e7f58aa4bd03
+SHA1: e86e3fcdccc2abdec26c5f1dcf3bea08b57f6267
+SHA256: b14c4d50bfe81e61f47ba641f50fc8fff002158d5b9a66e4fdb1897e86999567
+SHA512: 39f6601840577b817860af30b7c6c914682b5c2625f89b9d44234d52b9372d5ac1b274dc3a46b334b04ce089534ce70c28eb41b55d4a1865d683dda88fd001e2
 
 Package: openssl
 Architecture: aarch64
