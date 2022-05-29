@@ -81,11 +81,11 @@ Homepage: https://packages.debian.org/dpkg
 Depends: perl, clang, make, dpkg (= 1.21.7)
 Description: Perl modules for dpkg
 Filename: dists/stable/main/binary-all/dpkg-perl_1.21.7_all.deb
-Size: 116536
-MD5Sum: c0c5950e1e459611f88107cfa3666706
-SHA1: 928a24e0d513d109dfd7c6862d78a05bc1765329
-SHA256: 2e39990a45cc348134486f1227ddbaa0e65548d80805826a1852bb6e5d62a336
-SHA512: feb542226cd58c0bd64322c7405f5b49cf606ebf2de37ff1a74d6d35d74caa8c66adec8f3f1ea54a022667dcbcd19dae0571278a956e5f7d5f7c8d2fc5182571
+Size: 116604
+MD5Sum: 29034694c885e8446bef0964d093e83a
+SHA1: 703217ccf657dbbd58bcde10594d44a8c3beaaaa
+SHA256: 916b30c194447d8950333588ffc8f323957571a3a5f71a39b2bd09ad402cb80a
+SHA512: a197d1a642e08ee584c71a4a788430a8dc3980c0728089b4a7802f998a175360563a09ab64b0f9da6e8316e29cce875c946bbbf9f555ac74a793957f412697ce
 
 Package: dpkg-scanpackages
 Architecture: all
@@ -97,10 +97,10 @@ Depends: dpkg-perl, dpkg (= 1.21.7)
 Description: Creates Packages index files
 Filename: dists/stable/main/binary-all/dpkg-scanpackages_1.21.7_all.deb
 Size: 6916
-MD5Sum: 6ed90e3b8e5ab6db55d53a17c94234ee
-SHA1: 21fc1f1f9eeb412ff04ea682569e6c204ed2fcf6
-SHA256: b1bc2eca0873e283260f9d8fa3a3af889661b302e94cc402ba8b29b27cdf6d67
-SHA512: a4d084d19ac0a59ba9dda3c6978c441924292046b1d3f5e086303ea78fcb297539f54351629a68349bedd469121fde3031e88ddff13c112ab68eef8cd6090381
+MD5Sum: c04bb0330201d83011798d02b9f491d6
+SHA1: 59a2aee6db5cc8f7a833ac0e0bc548f774bbfb81
+SHA256: 35e16284686456e8a7f2e5d7ed0cd01f55aa950cd8e9063f4dc70ff70ce59b01
+SHA512: f69c583995c0214c6f015533191a3874c24e57b7674ae518f3716e3e53c06cd22926d4c9c2469f7f1f240988a1389f5bff01c18ebf9c1cac2046c27b394c9da8
 
 Package: termux-am
 Architecture: all
@@ -161,11 +161,11 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Description: Basic system tools for Termux
 Filename: dists/stable/main/binary-all/termux-tools_0.181_all.deb
-Size: 24540
-MD5Sum: 5c2b8099c174ee274c783bbd4949088a
-SHA1: 39bb69cfc00723eb0e0f597a9953aab378ff38df
-SHA256: 767db35c84c452f41cb037b59585a0996ad2a6616496bd93dbebd967707db9c5
-SHA512: 9993a83bb6f6da2d752350db1de4bd8ac509e8aad3a5ef26ab54c140ecf0dd076562d63d0aa70ebb24c00d8be5c9d78f6e7abab97ea8ed4485adb40025cd301e
+Size: 24244
+MD5Sum: cc978ecf3b86c01e94e1fc9bb599fd78
+SHA1: 7ec98f92bf844f0774263c6d95494ea107e8d2cf
+SHA256: 559a46100119d6954ddde36f7d5bc719cfac68824936b539c43c5e84590782ff
+SHA512: be946ff1c19a9fdaac0ac2134116dee6b91d414f3c796bc5d3ee25f9406133ce27bec2ea726f1db1ecc06fd586ddd1a2e5ec5be24665699a636de8dbdb9a0ff3
 
 Package: ttf-dejavu
 Architecture: all
