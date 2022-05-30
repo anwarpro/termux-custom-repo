@@ -2331,11 +2331,11 @@ Provides: nodejs
 Suggests: clang, make, pkg-config, python
 Description: Open Source, cross-platform JavaScript runtime environment
 Filename: dists/stable/main/binary-aarch64/nodejs-lts_16.15.0_aarch64.deb
-Size: 9711944
-MD5Sum: 8d04d920e96947dac63652fd42202cc3
-SHA1: 6deddd854795bfa5859a188a92aa9ac1f8e014e2
-SHA256: a358c752155e3264e2000546f6876889e799d0f6ec62d69e528d4e95b00e33b1
-SHA512: f78e81e76477958b7a03dbe37aba1e7d5b5df93c45c729ad489aa2dfe9a28725a80d2ea8d860572e855e8afab085236b93f8a8eb8ac01b04078c5787e64ebadf
+Size: 9704520
+MD5Sum: ecb93d36fd91c71dfe46b02311135dc6
+SHA1: 5c8692d500de672d97c6c50129e900ec0d7dc735
+SHA256: f94b531831d1a60dba23512af56dcf85d9b1f869daee521d56c62e54466ea279
+SHA512: 6247c6382864b2352460bf79872d28b44dd9f2b835e9602fe35b954f9242488d1fba5bca127486ca41e9eef7d3fc7058f9061a21b144a111240eebc9a6b831a3
 
 Package: nodejs
 Architecture: aarch64
@@ -2350,11 +2350,11 @@ Replaces: nodejs-current, nodejs-dev
 Suggests: clang, make, pkg-config, python
 Description: Open Source, cross-platform JavaScript runtime environment
 Filename: dists/stable/main/binary-aarch64/nodejs_18.2.0-1_aarch64.deb
-Size: 10048292
-MD5Sum: 5813ea3d2a01f625a20b5f1ac86e7868
-SHA1: eca40f7e35e61b8c96686b0b20a92c4bfc765675
-SHA256: 2b2f49445fb7cf641ecc21993796c4ad2e5cf2cf9909aa01a47e6ee31357f37e
-SHA512: 66131a5562017c1164e1681ae55242e5797111a9510e7a97c8bc3c003873469fe1598d688064cb57cf8e6d4fd57624a290cfd07c591863deabca3da2406dbb4c
+Size: 10061712
+MD5Sum: be41d668c478806c84f38abdaf4ffa83
+SHA1: e843249f1421f49e5abde4206313d2f0c51e0995
+SHA256: fe089fa86cc999cdac8110c71d1b6cfde556e77ce6691ac2b302f2ce6706b670
+SHA512: 23a668c40a6693a4bdac8f5c1709dfee2cd6d5eef183245603318b1066242fa80863630b14e0216c283eacf2b9ab66ec9755597e7bc2f60f574bf416e9f7fa6e
 
 Package: openssl-1.1-static
 Architecture: aarch64
@@ -2645,11 +2645,11 @@ Homepage: https://python.org/
 Depends: python (= 3.10.4)
 Description: Static libraries for python
 Filename: dists/stable/main/binary-aarch64/python-static_3.10.4_aarch64.deb
-Size: 3979472
-MD5Sum: 69271c9bf331ac6889bb8ad5f48e5a6f
-SHA1: 66b7e5cc63d78573aa441423ce291f2626e25120
-SHA256: 68629b5746595c0216153e8c97461d8061447927383beea1d1545a387a4d65c4
-SHA512: b9cb05ca5a6c0b62da6c4cf8da3ee49f92d600dfa3755725189708d43c0bb8f089b0d0aeabd50f9cb2f4691aa5b7f730fefc05a41121dc8822d4cef3ca03f705
+Size: 3979900
+MD5Sum: ef5238a0015faa01939a6438486eb3b7
+SHA1: ea47c3a8157f7d429bc11bd588df12a6786d4c02
+SHA256: 3757be42e9ee096a0ad48e3f027995a202de5dacafa66e30a47ba6a0124d49a3
+SHA512: 96ecbf165eab789a24f2ce974c518687bcad7c92700cdd64046a63337b85d1fa91a0f98b8beff4208800e43eeed3d9dda096a7de2a3c5fe1ecb92e81fa1dac1f
 
 Package: python-tkinter
 Architecture: aarch64
@@ -2660,15 +2660,15 @@ Homepage: https://python.org/
 Depends: tk, python (= 3.10.4)
 Description: Tkinter support for Python 3
 Filename: dists/stable/main/binary-aarch64/python-tkinter_3.10.4_aarch64.deb
-Size: 957672
-MD5Sum: a43484a1d6112a22d83c3cd387c1f235
-SHA1: 1bcb55237a9c4e9f3891208dc41d0888a1bef29c
-SHA256: 80932c03a6e492579299bd174edaf3be216c4c9f484b605f1d8008bcffee1ab3
-SHA512: de1192108cf8612fc91c3a7997893103b1de4df9e8c35d076cb83f86be8c6d225db1c1f8cc18b5c0e59c8c4e300adedb75534c5be5ecc5ad230c27735815933b
+Size: 957420
+MD5Sum: cad898f919ee0cac0bf130d6c510444a
+SHA1: cd348f35b68943dc4fb63cfce19f55e073628bac
+SHA256: 25478b5edc4ab6c9e5f2aa74b7851b2f87953ff0a1ff257eae353d6d0af87761
+SHA512: 4be79ac7c25b50b9e2f3f1f06253a55a1f80ada672d8f8fafb3361198ba7890aa06235e05c156ba50701a0b6d7ef858ef6289a5811eb06b6e45d3d69f8638344
 
 Package: python
 Architecture: aarch64
-Installed-Size: 48840
+Installed-Size: 48856
 Maintainer: @termux
 Version: 3.10.4
 Homepage: https://python.org/
@@ -2680,11 +2680,11 @@ Provides: python3
 Suggests: python-tkinter
 Description: Python 3 programming language intended to enable clear programs
 Filename: dists/stable/main/binary-aarch64/python_3.10.4_aarch64.deb
-Size: 8954064
-MD5Sum: 0c5da2ff80b98a61c5833aa19d38cbe9
-SHA1: a1fba7e584a3f6c48b9abbb79c83e3616592d247
-SHA256: ac9ec2539c5d9eecd4f21b5e18688ec8500a2469305de20353c20d785fae63da
-SHA512: d2f6fb39f88e7fa174c1bd2fc15df03dc877fcfc6c555106ea2dceb134607dc98a114323bd0e16e27b9fa5ad312985098eb24551dbf56d8f39dc590417f4d2e6
+Size: 8954472
+MD5Sum: f03c9efd979eb40dff5c015d28092466
+SHA1: ef956e5301d01fa989b63c11acc9462c6a6c04f2
+SHA256: 7fb8a5982fd65208dc83cc7c42da08bdf5f979a6dde318c81e45ffdb13e20089
+SHA512: b8886dff69927437dabdc103da6a0724c386943e57bde0d82d953fb4b033da02b19501e70106fdd7d1b252a3f710132ace6e56b607e401b923b96f22a87e8ac8
 
 Package: pyunbound
 Architecture: aarch64
