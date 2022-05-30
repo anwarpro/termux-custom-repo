@@ -2331,11 +2331,11 @@ Provides: nodejs
 Suggests: clang, make, pkg-config, python
 Description: Open Source, cross-platform JavaScript runtime environment
 Filename: dists/stable/main/binary-aarch64/nodejs-lts_16.15.0_aarch64.deb
-Size: 9704520
-MD5Sum: ecb93d36fd91c71dfe46b02311135dc6
-SHA1: 5c8692d500de672d97c6c50129e900ec0d7dc735
-SHA256: f94b531831d1a60dba23512af56dcf85d9b1f869daee521d56c62e54466ea279
-SHA512: 6247c6382864b2352460bf79872d28b44dd9f2b835e9602fe35b954f9242488d1fba5bca127486ca41e9eef7d3fc7058f9061a21b144a111240eebc9a6b831a3
+Size: 9758012
+MD5Sum: 6ea549584d887df90a9e9861c635eee3
+SHA1: 9fc23b9b8a2509fd6e274318c4424ca5d4ebb664
+SHA256: daf70cb0e241e9ab366a8983b384db66951742aa3c8557950410573c2de68831
+SHA512: 8b4d0a5b96cbaf958f0254487d9124964d8d5ef622ee570cca7b2d5d4ca31f90b7ddedcd96f1ffce3b01bd2576f62be90355db0460df30cb06f62695e37b703c
 
 Package: nodejs
 Architecture: aarch64
@@ -2350,11 +2350,11 @@ Replaces: nodejs-current, nodejs-dev
 Suggests: clang, make, pkg-config, python
 Description: Open Source, cross-platform JavaScript runtime environment
 Filename: dists/stable/main/binary-aarch64/nodejs_18.2.0-1_aarch64.deb
-Size: 10061712
-MD5Sum: be41d668c478806c84f38abdaf4ffa83
-SHA1: e843249f1421f49e5abde4206313d2f0c51e0995
-SHA256: fe089fa86cc999cdac8110c71d1b6cfde556e77ce6691ac2b302f2ce6706b670
-SHA512: 23a668c40a6693a4bdac8f5c1709dfee2cd6d5eef183245603318b1066242fa80863630b14e0216c283eacf2b9ab66ec9755597e7bc2f60f574bf416e9f7fa6e
+Size: 10058136
+MD5Sum: eefce3c733783697015750137841627e
+SHA1: 4974247467491acf8f27f97579e6ecc724db6bad
+SHA256: 58940f8e72c15568f54602beac13adb811472c803f0b7250260f54f177c4c983
+SHA512: 873af3c1dbdde461086cd3f13f2d458d57ba764bf9cf4897dbc3231146507922b71fbbfb14a5240a0d0b759f4704712eeaf939acaba4bb83022581876c840f95
 
 Package: openssl-1.1-static
 Architecture: aarch64
