@@ -1613,6 +1613,37 @@ SHA1: 78276d39fd7f401e0ebb11c24148b30fc8b5e000
 SHA256: bcfc978fb4c0a0f6ce0cfd6b907c3664425166d44eea7603853176fded5d1cbb
 SHA512: 67c6b11612cd3605bcec384f610c0609f3694ebc98049d9a6f815979655fc23a61eaf66013f1410c61f0f2c174212ccaa575f478dd4e11f7ec34a304ac4f48c4
 
+Package: libtalloc-static
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 2.3.3
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Depends: libtalloc (= 2.3.3)
+Description: Static libraries for libtalloc
+Filename: dists/stable/main/binary-aarch64/libtalloc-static_2.3.3_aarch64.deb
+Size: 10780
+MD5Sum: 8d1e6e6a05bd1710f75a39e39ee3662b
+SHA1: cbcbbf8306dfb7021a7e1259cb18d5ece465f0a9
+SHA256: d5a5f916ad5f51a36a0c6913e25e85fd1fba54d3b9ebab626c175ff3f77778c1
+SHA512: 42764f76918dafc87933a920b83dbe4067badc4be9a0c077682a751a28b6d1cd650b8921a48ee83ccd56a63af3489dc915307fad06ccec89891b4fcce88bb7f5
+
+Package: libtalloc
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 2.3.3
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Breaks: libtalloc-dev
+Replaces: libtalloc-dev
+Description: Hierarchical, reference counted memory pool system with destructors
+Filename: dists/stable/main/binary-aarch64/libtalloc_2.3.3_aarch64.deb
+Size: 32988
+MD5Sum: 432a0d02b087f375f50b8c46fde7ce16
+SHA1: 8f1b53eeacd9ec0dc440cab808d90776bd1c9b75
+SHA256: a2bc0fb7e4237751d071753c78211d210e12dbc607d8e3da71a72f4e14bd38ef
+SHA512: 7f563c272d562e455ec33927e60373ff8d1473f4b4a00b7687484f54ca4514a036e0d6e3424cddcc73b25145bbab055995e8b80d9992e8b5a6d9622a430eb994
+
 Package: libtirpc-static
 Architecture: aarch64
 Installed-Size: 372
@@ -2619,6 +2650,21 @@ MD5Sum: bf5004f5684889b3cadc6d1753100648
 SHA1: cec4d09ad410e071d22b17b8c574ac3214d174a7
 SHA256: 49e594ab4a7c804460b17e609441823fb278d736f6fb22940a99efc1cf3a3168
 SHA512: c69f1a3d20341fa91e1d50cb943c574d1b015465c7689083d4cd11f4033ce8b2b49b349613f0ff493ed72b58d11ada4d45e4a6674c69519e0c77b4508cdbd9eb
+
+Package: proot
+Architecture: aarch64
+Installed-Size: 288
+Maintainer: Michal Bednarski @michalbednarski
+Version: 5.1.107-54
+Homepage: https://proot-me.github.io/
+Depends: libtalloc
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Filename: dists/stable/main/binary-aarch64/proot_5.1.107-54_aarch64.deb
+Size: 81540
+MD5Sum: 690b47154be42e9dc9c9fa39ba61a937
+SHA1: 8fbcd5ab0dc1b6d38e55cb2c65d2c71f2cd16ad6
+SHA256: c6f83f44dcb018c826969a9d25fc95985134bedec3cc00d4ac96e581bd5aa92d
+SHA512: 60020cc9a58840a812bd02621a7c5aed8894f02d91585a267e2da63ad4e1b05edb4b70f669c749534284813225f0acf9595014e6c77be2934cfd9c1fbb321d55
 
 Package: psmisc
 Architecture: aarch64

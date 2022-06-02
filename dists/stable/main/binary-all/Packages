@@ -102,6 +102,21 @@ SHA1: a366817b65713b7db186e7b4fac1eaa1dd8d0157
 SHA256: 4622759749dfbb5f45d9f660aac974874ed35029d9ebe2a4905323209790d714
 SHA512: 503ee2e4292f818742ab44f0478fac24731d7bfd14b60c37c1516f7ea28e0c04641f5f6921b95cad48078282759716e1757fc32f99b221bf6b2c1eb08246bc93
 
+Package: proot-distro
+Architecture: all
+Installed-Size: 168
+Maintainer: @termux
+Version: 3.0.2
+Homepage: https://github.com/termux/proot-distro
+Depends: bash, bzip2, coreutils, curl, findutils, gzip, ncurses-utils, proot (>= 5.1.107-32), sed, tar, xz-utils
+Description: Termux official utility for managing proot'ed Linux distributions
+Filename: dists/stable/main/binary-all/proot-distro_3.0.2_all.deb
+Size: 21464
+MD5Sum: f91c34cbc3b67d7906ea25ad2f407017
+SHA1: 3732ae692e93d6e5b9fe17e204a23b35605af04f
+SHA256: 3bef6d6a9ad8cf3b919e4ef35c89a21bb0ce00cf52c9aa37b09a34cef3172453
+SHA512: a1276b9735a1ea4f0b8fb51f1685756d5ff5e586e8e0b500ceeccdcddc0d3dcdd8734d74cb1dbec6c124f6b52acddd97070bd589d931867a703bb9f6e5403482
+
 Package: termux-am
 Architecture: all
 Installed-Size: 72

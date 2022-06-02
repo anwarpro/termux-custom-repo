@@ -6114,6 +6114,14 @@ data/data/com.learnprogramming.codecamp/files/usr/include/libssh2_sftp.h        
 data/data/com.learnprogramming.codecamp/files/usr/include/libssh2_publickey.h    libssh2
 data/data/com.learnprogramming.codecamp/files/usr/lib/libssh2.so                 libssh2
 data/data/com.learnprogramming.codecamp/files/usr/lib/pkgconfig/libssh2.pc       libssh2
+data/data/com.learnprogramming.codecamp/files/usr/lib/libtalloc.a                libtalloc-static
+data/data/com.learnprogramming.codecamp/files/usr/share/doc/libtalloc/LICENSE    libtalloc
+data/data/com.learnprogramming.codecamp/files/usr/share/man/man3/talloc.3.gz     libtalloc
+data/data/com.learnprogramming.codecamp/files/usr/include/talloc.h               libtalloc
+data/data/com.learnprogramming.codecamp/files/usr/lib/libtalloc.so.2.3.3         libtalloc
+data/data/com.learnprogramming.codecamp/files/usr/lib/pkgconfig/talloc.pc        libtalloc
+data/data/com.learnprogramming.codecamp/files/usr/lib/libtalloc.so               libtalloc
+data/data/com.learnprogramming.codecamp/files/usr/lib/libtalloc.so.2             libtalloc
 data/data/com.learnprogramming.codecamp/files/usr/lib/libtirpc.la                libtirpc-static
 data/data/com.learnprogramming.codecamp/files/usr/lib/libtirpc.a                 libtirpc-static
 data/data/com.learnprogramming.codecamp/files/usr/etc/netconfig                  libtirpc
@@ -21686,6 +21694,11 @@ data/data/com.learnprogramming.codecamp/files/usr/include/proc/numa.h           
 data/data/com.learnprogramming.codecamp/files/usr/include/proc/sig.h             procps
 data/data/com.learnprogramming.codecamp/files/usr/lib/libprocps.so               procps
 data/data/com.learnprogramming.codecamp/files/usr/lib/pkgconfig/libprocps.pc     procps
+data/data/com.learnprogramming.codecamp/files/usr/bin/proot                      proot
+data/data/com.learnprogramming.codecamp/files/usr/bin/termux-chroot              proot
+data/data/com.learnprogramming.codecamp/files/usr/libexec/proot/loader           proot
+data/data/com.learnprogramming.codecamp/files/usr/share/doc/proot/LICENSE        proot
+data/data/com.learnprogramming.codecamp/files/usr/share/man/man1/proot.1.gz      proot
 data/data/com.learnprogramming.codecamp/files/usr/bin/fuser                      psmisc
 data/data/com.learnprogramming.codecamp/files/usr/bin/prtstat                    psmisc
 data/data/com.learnprogramming.codecamp/files/usr/bin/pstree                     psmisc
