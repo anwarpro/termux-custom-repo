@@ -25141,9 +25141,6 @@ data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/pyt
 data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/config.c python
 data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/install-sh python
 data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/python-config.py python
-data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/__pycache__/python-config.cpython-310.opt-1.pyc python
-data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/__pycache__/python-config.cpython-310.opt-2.pyc python
-data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/__pycache__/python-config.cpython-310.pyc python
 data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/config.c.in python
 data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/config-3.10/Makefile python
 data/data/com.learnprogramming.codecamp/files/usr/lib/python3.10/pydoc_data/topics.py python
