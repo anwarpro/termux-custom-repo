@@ -102,6 +102,21 @@ SHA1: a366817b65713b7db186e7b4fac1eaa1dd8d0157
 SHA256: 4622759749dfbb5f45d9f660aac974874ed35029d9ebe2a4905323209790d714
 SHA512: 503ee2e4292f818742ab44f0478fac24731d7bfd14b60c37c1516f7ea28e0c04641f5f6921b95cad48078282759716e1757fc32f99b221bf6b2c1eb08246bc93
 
+Package: git-svn
+Architecture: all
+Installed-Size: 320
+Maintainer: @termux
+Version: 2.36.1
+Homepage: https://git-scm.com/
+Depends: subversion-perl, git (= 2.36.1)
+Description: Convert between Git and Subversion repositories
+Filename: dists/stable/main/binary-all/git-svn_2.36.1_all.deb
+Size: 75396
+MD5Sum: 19e57c34185802c4a01f8de871b14401
+SHA1: 3ab1f3eac026da5729ecbe26cc1bff7b5db01d55
+SHA256: d0fa8af2554f3082f6b17b30168652ac0c8e6b0d72acf773e52f24f62498b38c
+SHA512: d7b46c88fd5b3608c6d0eb212ca5489816f52f00b46eaa0e3be5bd3bbc7d15d6e1fe42865114c2657e13b99b4109560fd89ae35c190f2d25bffee28944da8a58
+
 Package: proot-distro
 Architecture: all
 Installed-Size: 168
