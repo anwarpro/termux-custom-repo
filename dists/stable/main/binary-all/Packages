@@ -191,11 +191,11 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Description: Basic system tools for Termux
 Filename: dists/stable/main/binary-all/termux-tools_0.181_all.deb
-Size: 24252
-MD5Sum: ff8af55836d2eb8180cddc49cff64dfc
-SHA1: 277184ed0b14de710f487a600e87b3dedf6d2952
-SHA256: 4ce919bba4550fdc5ad4753be619e1f71a402aaaad067016261a713b25a81e61
-SHA512: 71954cda02674ed9b4405c38c1be49d49f86dc44d301d24cab5f321ecda8e4ebbd191406d0a8f01f17f1de57a1a0c65e4bad386874e49f61468579489e1e4f58
+Size: 24220
+MD5Sum: eb5aaea6b6c5e4d1d48d233a0fa3d931
+SHA1: c7701ac60f9703a146b2ee133bdbb4a8c31a4776
+SHA256: 056de558af0a73a7afc6388edc9005ba34b193b701db3b270581218b758ff40c
+SHA512: 683db323487fb7ff54b4a6a0d03930a63ec572ae0f72d648135984f028f09663ddd7d371c9eacb8feb50ec4a1f31746fdf43e4a6509f0ec6ef27c9bd8a4f33c2
 
 Package: ttf-dejavu
 Architecture: all
