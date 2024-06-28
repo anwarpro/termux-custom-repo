@@ -2166,11 +2166,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.4.20231001-4)
 Description: Static libraries for ncurses
 Filename: dists/stable/main/binary-arm/ncurses-static_6.4.20231001-4_arm.deb
-Size: 141508
-MD5Sum: ba618b666be54bb8722f50ee9aecde00
-SHA1: 093a867d913aef8e1c1e0d0564f04575cad57098
-SHA256: debbd69686de78f1b268eb748af3f0f9d89d7784fb71e91bfd0eb424cf740eed
-SHA512: fcaa01625b2e0d0bff21bcc138eb02281882df8aeedef8d19509637f5e3e4b4dc9fa1fea8567d0e501eccdb3ade0a2d272d674590c5a550f91b1e4de42a4edb4
+Size: 141528
+MD5Sum: 0cd633f296f6be542754210046a2bbbc
+SHA1: 167cc8ffb8c3afbcce4b796b8a488838ad05ce51
+SHA256: fee5fa91764cb4ad5c29dc060a2dc52d60f641ee2a1d0e3747645c3650732a6d
+SHA512: ec21a3a02b1aafb4370d19da5e8704a1f0d8d1b2e04a10b3667614af116aeda5786c44973211f7dde4c8e984f9d0b6a1dbb7bb60c9e29279d990d177727c3562
 
 Package: ncurses-ui-libs-static
 Architecture: arm
@@ -2181,11 +2181,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses-ui-libs, ncurses (= 6.4.20231001-4)
 Description: Static libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-arm/ncurses-ui-libs-static_6.4.20231001-4_arm.deb
-Size: 34700
-MD5Sum: 1902a8a4941c9d133c8e598d10da57e6
-SHA1: 6b319762926bff6263998d2a267a610637df483d
-SHA256: f2ad6ac148ac55c76d06fbada8d8cc6ad932a201f8a31c3e987cbd1da8fd40ae
-SHA512: 7736bb0c1860c59eeab60bf26041432e84a89648f8249ea42fcb45bad0bd2c6efe8b25c4c6ea57eabd8b0ba74171e0d6e21cd1102ca21ecb0e109219b63dff83
+Size: 34728
+MD5Sum: 9d2eaf099a4523f705ff5bab31111cd6
+SHA1: de6784b0e22e86884146921314814b0745e78664
+SHA256: b4f4a54381671599da9af291807015039dcad6c3746ad80dbe9b5e93af1634d4
+SHA512: bdfa6e3a16a5772844a739c96c77a9ec214d768d7e4283aee797fcc5e656e67789640fd171543cf26a524a0d2048a6bc3131e00be52e26748a2811141416f22f
 
 Package: ncurses-ui-libs
 Architecture: arm
@@ -2660,7 +2660,7 @@ SHA512: 42ef2b1eb8a5f0b6e4ab8494d63bd668a6a5ef73ffd727eb2bd3188de365d8d4f296ea82
 
 Package: tcl
 Architecture: arm
-Installed-Size: 7056
+Installed-Size: 7060
 Maintainer: @termux
 Version: 8.6.14
 Homepage: https://www.tcl.tk/
@@ -2670,10 +2670,10 @@ Replaces: tcl-dev, tcl-static
 Description: Powerful but easy to learn dynamic programming language
 Filename: dists/stable/main/binary-arm/tcl_8.6.14_arm.deb
 Size: 2209968
-MD5Sum: c609ff8939b31cd2a3072488b17b083e
-SHA1: a94397b736e72e6e690cbfc5a5ec1729686e6a5c
-SHA256: 12a475d998de50ddde1c8763dcbaa79c7a44d59421b5f5a58589bcf5064b87ca
-SHA512: 5274eef5ced04b33db29c1810450d9de857fa9ba27ce0970e0481ea7243087e9eaf1916ff14dc4463bbc36e75d207a21ca7cf3ca28a36fe09a8f240d83268409
+MD5Sum: 2994c1a37d08dd829be65cbb8fad11a3
+SHA1: d8d93709376a8948e8c8d57e4b93fa25af928250
+SHA256: 49dec50f54e25e4aa087b3d4c387c2689a63bd6eca96e0f98303968e6e8aebf0
+SHA512: 6b3ef1d858944de11e8be29bcf0ffbd7e5256047abc54fec9662f257468e63b9dabbe958f1fc0dbba7259da2ea87fa3055e50c6c06791016c8f152a97e4c3d65
 
 Package: termux-am-socket
 Architecture: arm

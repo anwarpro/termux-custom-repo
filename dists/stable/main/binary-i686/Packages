@@ -2166,11 +2166,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.4.20231001-4)
 Description: Static libraries for ncurses
 Filename: dists/stable/main/binary-i686/ncurses-static_6.4.20231001-4_i686.deb
-Size: 155520
-MD5Sum: 323fe4b0ed4b235a36bfc8a4ba8324fc
-SHA1: 5697c342646bdf17ebe34e876f215b368cd1706f
-SHA256: ec939e7d580acd1f677bbbd23ec9e7512d3eb8686626114a21ea987727a1833e
-SHA512: 35896e3613d64af779c704434e6e99ad6e628caa84a94db6e2fda4408ed02504103198fdd723db549406d7f7eb88082812015a6ef5d95cae3009bc2c867dfe2e
+Size: 155232
+MD5Sum: 7da5540e21833bf9956f1aceabd17fd2
+SHA1: 11798f24891461117c419c4070849213eb6cb4ad
+SHA256: 26e70f99bfd611fe75f89b6e867b6e37ce90dcc0587d84c264b4780eddd38e52
+SHA512: d89e6bc76afd28b25f01f642196803e6bf17f95af123461d66fbd5e254cc8c72d68b8c8d10ca595f0e895741b73ebc0850f1543a508e4c4cf1ef78cf48016614
 
 Package: ncurses-ui-libs-static
 Architecture: i686
@@ -2181,11 +2181,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses-ui-libs, ncurses (= 6.4.20231001-4)
 Description: Static libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-i686/ncurses-ui-libs-static_6.4.20231001-4_i686.deb
-Size: 39096
-MD5Sum: d35ef37b89f83eeecdf23397df5246b3
-SHA1: 8cc973323db0019ae2ec7d25f5a08f27e2e1ee81
-SHA256: 1869426c5b1151441cb6d5ed204fd82a38b8e7109a01e942d5a9cbe853cc1eed
-SHA512: 504799c9ec0b80a260e41232f7ca89765301feb2253cba82eb98d43c18caf126c0f8bcaf57d24004fae014d42e205014471b97b2638400b2949972dead54e734
+Size: 39104
+MD5Sum: d6994ec18aebcb93e27925834f93c114
+SHA1: e6f88a0675a89cec38dd2bfbc0f78361be75a146
+SHA256: c10e863b9e265320e5df5c0e31d1ef69bf957224ac500875db6ed38519507db9
+SHA512: 29a0ecd8cc54121b38075e712fe7416280964e0572f7c418cf5f9c0f118883aaa3024dd44fb9f5880ae0decb7d3bbf392393518bd205499c8186445b1ae41325
 
 Package: ncurses-ui-libs
 Architecture: i686

@@ -1807,7 +1807,7 @@ SHA512: 5a88cd1df9edd7e3bb3d10ba5a5f26e033442630a24f220a7fc04d31055a2771f77d07b3
 
 Package: libxcb
 Architecture: aarch64
-Installed-Size: 12772
+Installed-Size: 12776
 Maintainer: @termux
 Version: 1.17.0
 Homepage: https://xcb.freedesktop.org/
@@ -1816,10 +1816,10 @@ Recommends: xorg-xauth
 Description: X11 client-side library
 Filename: dists/stable/main/binary-aarch64/libxcb_1.17.0_aarch64.deb
 Size: 923456
-MD5Sum: 7b76e466ad0e0e4566870cd206672b3e
-SHA1: 0222eaed07652c445cf4ff2bc5ec75e16588f5eb
-SHA256: 9c0fbfacd78f0c78636db382e25a0f247bc0b0d8e356ecf9450cb48c0d491ead
-SHA512: 555054251222866ee9cbd8ab62ea86ebfe8a91ec4840dd2fc0fc3002ab7828bd6bd2e157a3e8c9eace81286126d947c6dd36222284675360d1dc8d3e57d1c9c1
+MD5Sum: eeffd29e280cffc8a8bad14ab75778eb
+SHA1: 83d810ba661d22ae7740ca890542564dc533d977
+SHA256: 403612a7467303a426694d45a4bfcde131dce8d7470b700a70e0dda511f6903d
+SHA512: 84cfd02da6f1736671e1ff33cc69c81e7423efba848c762f23623bfc5e9517f2a48e7ca1ade68968b787d97e4149f1792a856f71d1d09d1fa2e69cb967881953
 
 Package: libxdmcp-static
 Architecture: aarch64
@@ -2166,11 +2166,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.4.20231001-4)
 Description: Static libraries for ncurses
 Filename: dists/stable/main/binary-aarch64/ncurses-static_6.4.20231001-4_aarch64.deb
-Size: 155280
-MD5Sum: 5e7cda34bb4b8d6fbdd434658a6e20a8
-SHA1: ada517e52ebbbdbc10c0ccf639c749455fbdb0bf
-SHA256: 428dabe68d2340717acfde988880fa4076aec9b2415ccbb7c32ae71779ac35a1
-SHA512: 4146be2f818402859323d6d9d1edb3216906ba85b9e14820e10b4ccecb38934a761a1291856fc08d9bb0ffdf3ef652d8efc2330c9d050a04f9f65aa05fc7242e
+Size: 155164
+MD5Sum: d0357fd8b069e154b5dfb7f3fc940ad4
+SHA1: d086e5f5e291b3d0b4a4c9fdf1de740e40782236
+SHA256: 11d72f37ca4dca1d515ba515c8e9a9ebb38995ac66cf769ac04a4b77c5e4f89b
+SHA512: f9b5e21f2dd3b75a606a3269f031ef817f540cfdf55a592d65eb04f4abbf0997bfef0b161f2102213f9555ac2d2f7b9c7baa69426e53581b58fd893a8341dff9
 
 Package: ncurses-ui-libs-static
 Architecture: aarch64
@@ -2181,11 +2181,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses-ui-libs, ncurses (= 6.4.20231001-4)
 Description: Static libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs-static_6.4.20231001-4_aarch64.deb
-Size: 39664
-MD5Sum: ab0fcd5337f2890cb2cfc5af3d9a2cf5
-SHA1: 75cd557dc162f8c767c83996560cefede1c086bc
-SHA256: c832e91d19435ce3ca3deff845c56c804f0d1f5324376dffec8c84af8e8ef1fc
-SHA512: 6482e585f2a56aabc174be08a01fb3d3fa261c09bf15fc7ada6bbbea97cecc3c6548cb679fec63ca08fa5849aa81910f393343463d89dc94186cea7978fd22e7
+Size: 39636
+MD5Sum: 362122f41b07c4de7111fe09953418df
+SHA1: ffc23d36c117ac2ad5f73b0e366ca13b0edb5e0a
+SHA256: 58ccd14585296dfd5d1d0da0604f5bec536f75ee5bf06361757d4a7f36df3086
+SHA512: 7b7b98a13e64593f7dd6b0c816a1093b0bb9db4ccb56aabf49c284bb378071ba0223ba7968d5dde006ec48682c28d3da25e3f2662db07547215b64951211c2cd
 
 Package: ncurses-ui-libs
 Architecture: aarch64
