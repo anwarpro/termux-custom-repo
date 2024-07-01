@@ -68,6 +68,22 @@ SHA1: 096b254cae0eb5f498913994f29c9078aba4867f
 SHA256: 7f94182fa44d1b4afa02a2de9475e1efc5d4945d2d897981a9b0c368aad406f1
 SHA512: 7fd23b51eb0d6f4a55bad5fdd4e188d4f00fccd12aff6ec34e7d54ebd3e22955187e88fa1e9cc572a60d97330d70e5a5a1989fee5868416428a6b9795be1d6e4
 
+Package: c-ares
+Architecture: i686
+Installed-Size: 488
+Maintainer: @termux
+Version: 1.18.1
+Homepage: https://c-ares.haxx.se
+Breaks: c-ares-dev
+Replaces: c-ares-dev
+Description: Library for asynchronous DNS requests (including name resolves)
+Filename: dists/stable/main/binary-i686/c-ares_1.18.1_i686.deb
+Size: 121476
+MD5Sum: cf6ee50b2bb4fd9e00f676c3110c0b1d
+SHA1: bb548b3f3dd537b59f8d0c8527089e4d46dcc5ef
+SHA256: 67a687f2525f5766a3e12205de02e4874166177413aefc5ecfa5b31a5f11a09a
+SHA512: 5b72a6786a20d33e6ab8e87441dab62277be2eb80259a0f0316df9cb2ac65ee1269dc2661a94a8143048cc16f992f11980ba83e027ea55b1ba0369993e511361
+
 Package: clang
 Architecture: i686
 Installed-Size: 139568
@@ -523,6 +539,21 @@ MD5Sum: 364aace0e83838e96097c80619082803
 SHA1: 2bda5d6a95bbb9303fd82b928bee73d97d82c95d
 SHA256: 82ad546f180d2141f47d15971de8cf3a2f1957fb239c76a98a135514e0f79ec8
 SHA512: affa3ac31d283b8eb3c2fa932737d978ef2cc2e1d3a0549eb2a5e6f8ea1a05bfb815c157966e90758d5954477f9c3335de0a79c23d020fb3104434dfe9f7f282
+
+Package: icu-devtools
+Architecture: i686
+Installed-Size: 972
+Maintainer: @termux
+Version: 71.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 71.1)
+Description: Development utilities for International Components for Unicode
+Filename: dists/stable/main/binary-i686/icu-devtools_71.1_i686.deb
+Size: 215408
+MD5Sum: c0d5c16a8360b1b127cb0e5a8a89b3d4
+SHA1: beaaee5ef78fdd6cfe319a8194361021c73804a6
+SHA256: fd8fbbe5961786560e13c7d6d11b0f97f82014e153c6b8cd1ed58fbc5c477e0d
+SHA512: 2a3ca98e37c247de25d7c3b16674c3c52005e3f642e364d3144c154c4716a14429180fc78fe1891cd689388e6739d8832e4cbd07727a11f5bd65c3e6e65e8e3b
 
 Package: inetutils
 Architecture: i686
@@ -1137,6 +1168,38 @@ MD5Sum: 6286882e1fb6849af6e941112bdd199e
 SHA1: f3c02fafe87178c84fe4749e4abf5104b4257056
 SHA256: 01a9a5653c5db1ddf0b070098fd9f41dd4133b208d3e82452c32d46b2281bdd9
 SHA512: 8a9540706f1825a0bfce07cc335f209a9a0c0e9ddcf102b7077cc021ce20f2d0e2c77e3538f96a7b275caa3c9af1e7a63bcb996284f3d461191d32d9238be043
+
+Package: libicu-static
+Architecture: i686
+Installed-Size: 39140
+Maintainer: @termux
+Version: 71.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 71.1)
+Description: Static libraries for libicu
+Filename: dists/stable/main/binary-i686/libicu-static_71.1_i686.deb
+Size: 9251788
+MD5Sum: aa9a471c996f3b64fd4a8efd0b7b4911
+SHA1: 462a9d60fdfe3957138b96024d4967db7afc614d
+SHA256: 0ec366bed11565bc3965e1207bf6f3e6d1a61cab0316a3a85257746f33314def
+SHA512: 4fc29bfc4a7a38a498b6f31e934a5dcca9daddf4a0225107a77361fd322059e34414eb436d546e5064c65dbb552e9f402cc48021b8d4d9dd3668a99c475676a4
+
+Package: libicu
+Architecture: i686
+Installed-Size: 39752
+Maintainer: @termux
+Version: 71.1
+Homepage: http://site.icu-project.org/home
+Breaks: libicu-dev
+Depends: libc++
+Replaces: libicu-dev
+Description: International Components for Unicode library
+Filename: dists/stable/main/binary-i686/libicu_71.1_i686.deb
+Size: 9569560
+MD5Sum: a8ee00efabd556583709e679a2b37c47
+SHA1: 043577267a8cc7fb0a912de7e76de6431115d6da
+SHA256: 19acb837a2b78827d398d7e727ee5ee12fb0c376ee07313dc9ad27f3f5f07d4b
+SHA512: 36d524e2240f82595216145dad5320d9e46eb985e230bc4ac730d5a3b10854521fae39ad0d9bfcffd4e09ca2b52de5c6d7efab698d5b864af944ea9c66ab9f40
 
 Package: libidn2-static
 Architecture: i686
@@ -2254,6 +2317,78 @@ SHA1: 4a818f5ca979f92f4bb2e42db7e2e53e0cda6e39
 SHA256: e1d3059c5ddf0fd174146adf270feeda1128edf99589a79816358fbf624cd920
 SHA512: 0fdf308c98b15ad70364d27053bffb4990e32861b544964101cd113c3a2b8db5cfc9253626cd7e1ce0b7359623f8c48539f0f5550fed282c9f6defc11ead3ccc
 
+Package: nodejs-lts
+Architecture: i686
+Installed-Size: 54284
+Maintainer: Yaksh Bariya <yakshbari4@gmail.com>
+Version: 16.15.0
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl-1.1, c-ares, libicu, zlib
+Conflicts: nodejs, nodejs-current
+Replaces: nodejs-current, nodejs-dev
+Provides: nodejs
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: dists/stable/main/binary-i686/nodejs-lts_16.15.0_i686.deb
+Size: 10090012
+MD5Sum: 8a2535c716b098c01cd41a052f0571cf
+SHA1: 34b33ccf58757e9691ce7555367e19dda74733e1
+SHA256: 6946bacede977c2e9cdde6dc30e418759fa07e5b366bf1bbbf9d42f8c884e7b6
+SHA512: ee4d99374538b01aa0b0619cbc0ab25749d24ce4314acb74c3eafd7266fb093590dac4986c95002d3e8884c92167553f0bdf98d2149d5aa1b6312d1e961f5a6b
+
+Package: nodejs
+Architecture: i686
+Installed-Size: 56532
+Maintainer: Yaksh Bariya <yakshbari4@gmail.com>
+Version: 18.2.0-1
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, zlib
+Conflicts: nodejs-lts, nodejs-current
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: dists/stable/main/binary-i686/nodejs_18.2.0-1_i686.deb
+Size: 10490976
+MD5Sum: 7df5d2d157de023ba33010d8552b4697
+SHA1: ace9e740d1eb778fdb507cf71528147d00531a44
+SHA256: 964eb89decb2e4283a4c448091cbde6eb4bf7dc790cd45028bfd7b76313c0649
+SHA512: c7bd8f82afc242b4a253449c877f2ce72d98605c1c16351dcbd79ca03bb890643484601ad22d70546bc42110d224b9d9dd845467c4feed66a00673fe11f3e075
+
+Package: openssl-1.1-static
+Architecture: i686
+Installed-Size: 3948
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Depends: openssl-1.1 (= 1.1.1o)
+Description: Static libraries for openssl-1.1
+Filename: dists/stable/main/binary-i686/openssl-1.1-static_1.1.1o_i686.deb
+Size: 1162044
+MD5Sum: b7f50d43f69446ad0632f61e7d80512f
+SHA1: 2524d9d27168ba7085ecbf6f9d8f6f2930662bba
+SHA256: b2c564bf28817fad8ee2588611eb4f5eb1cbdf05088ae42ba8edca47c7140d69
+SHA512: 2b9857ac15a2e1a2eb25f3a4083e1837c8f680c9b595ec11f7bbdc1e492a774ce1396521fe967dc02ce90c18d84f01747d1b18e0fe2c7029874e8fd424da5ec8
+
+Package: openssl-1.1
+Architecture: i686
+Installed-Size: 4072
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Breaks: openssl (<< 1.1.1m)
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Replaces: openssl (<< 1.1.1m)
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Filename: dists/stable/main/binary-i686/openssl-1.1_1.1.1o_i686.deb
+Size: 1222464
+MD5Sum: 9370e2f50823b4f81a1f5ec84e9d6074
+SHA1: 236f5a9175cfd08accb8121788b0bc899ef733fa
+SHA256: 42a46383d848786b748112a7d2e8b3e552f1ba4765119f2de76e815dec2ab281
+SHA512: f7dcecb32150ea5f8e32a9be96ac787a1a92b240b13f99d22528313232f5f0f790ee77cc08a8ace5e8b21d854c0aac02a6c97631f891f5a10320640ce1cb4da0
+
 Package: openssl-static
 Architecture: i686
 Installed-Size: 6156
@@ -2283,6 +2418,21 @@ MD5Sum: 060f089b8ded80e93dbdc1e4c37d2007
 SHA1: 544efe052d02d8b50dbcc1bd37caa1e6e39de5d0
 SHA256: 4430273975e2fd40c940219f04bb959fe05297968497502c3e54fe94722f2210
 SHA512: d21b5521827218abafdc743e3aaff60daf7e4ee3d97ce743153ab5399fb323361c03fff51b9b77cd3ad7aeb4b6172dc6e53ec62037e5eebb8bb720e9abf763ac
+
+Package: openssl1.1-tool
+Architecture: i686
+Installed-Size: 560
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Depends: openssl-1.1 (= 1.1.1o)
+Description: The openssl command line cryptographic tool
+Filename: dists/stable/main/binary-i686/openssl1.1-tool_1.1.1o_i686.deb
+Size: 198552
+MD5Sum: 387102d7d8a44e1bfae6d6a6cbfe3dcf
+SHA1: 26bed5d1dfeffed68784bd1532b4a98393c176be
+SHA256: 2422e244651200f3ef45d661b3a472a6863d32dc5adf7649eee168fd4fbb21f2
+SHA512: 070fed7a1070022dce14819d79915809e68f595baedaa50bba7267973af20f287508af5657e02726d3be33142bb3b0da948ad74871e286bfcc78f5025e4725b3
 
 Package: openssl
 Architecture: i686
